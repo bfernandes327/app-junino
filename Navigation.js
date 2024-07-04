@@ -7,6 +7,8 @@ import TelaCadastro from "./TelaCadastro";
 import NovoAluno from "./NovoAluno";
 import NovoJurado from "./NovoJurado";
 import Votacao from "./Votacao";
+import TelaResultado from "./TelaResultado";
+
 
 
 
@@ -23,7 +25,8 @@ function Navigation() {
                 <Stack.Screen name="NovoAluno" component={NovoAluno} />    
                 <Stack.Screen name="NovoJurado" component={NovoJurado} /> 
                 <Stack.Screen name="Votacao" component={Votacao} />    
-   
+                <Stack.Screen name="TelaResultado" component={TelaResultado} />    
+    
 
 
     
