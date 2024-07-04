@@ -24,7 +24,7 @@ function TelaInsert() {
 
     if (nome.trim() !== '' && senha.trim() !== '') {
       if (nome === correctEmail && senha === correctPassword) {
-        navigation.navigate('TelaSelect');
+        navigation.navigate('TelaInicial'); // Navegar para TelaInicial
       } else {
         Alert.alert('Erro', 'Email ou senha incorretos!');
       }
