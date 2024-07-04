@@ -58,18 +58,18 @@ export default StyleSheet.create({
       buttonText: {
         color: '#fff',
         textAlign: 'center',
-      }
-    // principal: {
+      },
+     principal: {
     //     //backgroundColor: 'yellow',        
     //     width: '95%',
     //     display: 'flex',
     //     flexDirection: 'row',
     //     marginBottom: 10,
     //     bottom: 0,
-    //     gap: 7,
+       gap: 7,
     //     alignItems: 'center',
     //     justifyContent: 'center',
-    // },
+     },
     // principal2: {
     //     //backgroundColor: 'yellow',        
     //     width: '95%',
@@ -285,4 +285,52 @@ export default StyleSheet.create({
     //  sair:{
     //   marginTop:30,
     //  }
+
+    formContainer: {
+      padding: 20,
+      backgroundColor: '#fff',
+      borderRadius: 10,
+      elevation: 5, // Sombra para Android
+      shadowColor: '#000', // Sombra para iOS
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.8,
+      shadowRadius: 2,
+      alignItems: 'center',
+    },
+    title: {
+      fontSize: 24,
+      marginBottom: 20,
+    },
+    input: {
+      height: 40,
+      borderColor: '#ccc',
+      borderWidth: 1,
+      marginBottom: 20,
+      paddingHorizontal: 10,
+      width: '100%',
+    },
+    radioContainer: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-around',
+      marginBottom: 20,
+    },
+
+    votacaoContainer: {
+      width: '80%',
+      padding: 20,
+      backgroundColor: '#e0e0e0',
+      borderRadius: 10,
+      alignItems: 'center',
+      marginTop: 20,
+    },
+    subtitle: {
+      fontSize: 18,
+      marginBottom: 10,
+    },
+    picker: {
+      height: 50,
+      width: '100%',
+      marginBottom: 10,
+    },
 });
